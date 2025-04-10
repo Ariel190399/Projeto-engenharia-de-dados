@@ -229,8 +229,6 @@ Jorge Martin em 2024 é, sem dúvidas, o maior destaque. 508 pontos e uma efici�
 
 Marc Márquez em 2019 ainda impressiona. Mesmo em uma era anterior à atual dominância da Ducati, ele marcou 420 pontos com apenas 19 corridas, mantendo uma média de 22,11 — isso mostra o quanto ele foi dominante naquela fase da Honda. 
 
-Link do meu Databricks: https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1660807777469565/254179631858457/7016163473829090/latest.html
-
 
 Autoavaliação:
 
@@ -239,5 +237,7 @@ O desenvolvimento deste projeto representou uma oportunidade concreta de aplicar
 Optei por utilizar o Databricks e modelar os dados no formato de esquema estrela, considerando o volume e o tipo de análise desejada. A estruturação em tabelas dimensionais e fato facilitou a criação de consultas otimizadas e a aplicação de métricas analíticas como eficiência por corrida, taxa de vitórias e taxa de pódios. Essas métricas foram fundamentais para responder perguntas de negócio com profundidade e objetividade.
 
 Durante o processo, pude aprimorar minha habilidade em manipular dados utilizando Python e SQL, além de reforçar boas práticas como padronização de tipos, eliminação de duplicatas e organização semântica das colunas. Também percebi a importância de documentar com mais precisão cada etapa técnica, para tornar o projeto mais claro e reprodutível por terceiros.
+
+Link do meu Databricks: https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1660807777469565/254179631858457/7016163473829090/latest.html
 ---
 
