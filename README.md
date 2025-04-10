@@ -238,6 +238,80 @@ Optei por utilizar o Databricks e modelar os dados no formato de esquema estrela
 
 Durante o processo, pude aprimorar minha habilidade em manipular dados utilizando Python e SQL, além de reforçar boas práticas como padronização de tipos, eliminação de duplicatas e organização semântica das colunas. Também percebi a importância de documentar com mais precisão cada etapa técnica, para tornar o projeto mais claro e reprodutível por terceiros.
 
+
+
+
+📊 Catálogo de Dados
+
+### 🧩 Tabela: `fato_temporada_piloto`
+
+| Coluna                | Tipo   | Descrição                                | Domínio/Valores Esperados |
+|-----------------------|--------|------------------------------------------|----------------------------|
+| id_piloto             | INT    | Chave estrangeira para `dim_piloto`      | 1 a 22                     |
+| id_equipe             | INT    | Chave estrangeira para `dim_equipe`      | 1 a 85                     |
+| id_moto               | INT    | Chave estrangeira para `dim_moto`        | 1 a 33                     |
+| id_tempo              | INT    | Chave estrangeira para `dim_tempo`       | 1 a 42                     |
+| Vitorias              | INT    | Vitórias na temporada                    | 0 a 13                     |
+| Podios                | INT    | Pódios conquistados                      | 0 a 18                     |
+| Poles                 | INT    | Pole positions                           | 0 a 13                     |
+| Volta_mais_rapida     | INT    | Voltas mais rápidas                      | 0 a 12                     |
+| Pontos                | INT    | Pontos na temporada                      | 0 a 508                    |
+| Colocacao             | INT    | Colocação final no campeonato            | 1 a 47                     |
+| Corridas_participadas | INT    | Corridas disputadas                      | 0 a 20                     |
+| eficiencia_pontos     | FLOAT  | Média de pontos por corrida              | 0.0 a 9.06                 |
+| taxa_vitorias         | FLOAT  | % de vitórias sobre corridas             | 0.0 a 100.0                |
+| taxa_podios           | FLOAT  | % de pódios sobre corridas               | 0.0 a 100.0                |
+
+---
+
+### 🧑‍✈️ Tabela: `dim_piloto`
+
+| Coluna           | Tipo   | Descrição               | Domínio/Valores Esperados |
+|------------------|--------|-------------------------|----------------------------|
+| id_piloto        | INT    | Identificador do piloto | 1 a 22                     |
+| Nome_piloto      | STRING | Nome do piloto          | Ex: Marc Marquez           |
+| Numero_moto      | INT    | Número da moto          | 1 a 93                     |
+| Pais_origem      | STRING | País de origem          | Ex: Spain, Italy           |
+| Titulos_mundiais | INT    | Títulos conquistados    | 0 a 8                      |
+
+---
+
+### 🏁 Tabela: `dim_equipe`
+
+| Coluna      | Tipo   | Descrição              | Domínio/Valores Esperados     |
+|-------------|--------|------------------------|-------------------------------|
+| id_equipe   | INT    | Identificador da equipe| 1 a 85                        |
+| nome_equipe | STRING | Nome completo da equipe| Ex: Repsol Honda Team         |
+
+---
+
+### 🏍️ Tabela: `dim_moto`
+
+| Coluna      | Tipo   | Descrição             | Domínio/Valores Esperados     |
+|-------------|--------|-----------------------|-------------------------------|
+| id_moto     | INT    | Identificador da moto | 1 a 33                        |
+| modelo_moto | STRING | Modelo da moto        | Ex: Ducati, Honda             |
+
+---
+
+### 📅 Tabela: `dim_tempo`
+
+| Coluna   | Tipo   | Descrição              | Domínio/Valores Esperados         |
+|----------|--------|------------------------|------------------------------------|
+| id_tempo | INT    | Identificador temporal | 1 a 42                             |
+| ano      | INT    | Ano da temporada       | 2008 a 2025                        |
+| classe   | STRING | Classe da competição   | MotoGP, Moto2, Moto3, 125cc, MotoE |
+
+---
+
+## 🔗 Linhagem dos Dados
+
+- **Origem:** Site [Kaggle](https://www.kaggle.com/) – Dataset do campeonato MotoGP.
+- **Transformações:** Padronização de colunas, exclusão de duplicatas, cast de tipos de dados, cálculo de métricas analíticas (`eficiencia_pontos`, `taxa_vitorias`, `taxa_podios`) e estruturação no modelo estrela.
+- **Plataforma de ETL:** Databricks (utilizando Spark SQL e Python).
+
+
+
 Link do meu Databricks: https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1660807777469565/254179631858457/7016163473829090/latest.html
 ---
 
