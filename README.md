@@ -230,7 +230,7 @@ Jorge Martin em 2024 é, sem dúvidas, o maior destaque. 508 pontos e uma efici�
 Marc Márquez em 2019 ainda impressiona. Mesmo em uma era anterior à atual dominância da Ducati, ele marcou 420 pontos com apenas 19 corridas, mantendo uma média de 22,11 — isso mostra o quanto ele foi dominante naquela fase da Honda. 
 
 
-Autoavaliação:
+### Autoavaliação:
 
 O desenvolvimento deste projeto representou uma oportunidade concreta de aplicar os conhecimentos adquiridos em engenharia de dados em um cenário com propósito analítico claro. Desde o carregamento e tratamento do dataset até a modelagem dimensional e a execução de consultas, cada etapa exigiu atenção aos detalhes e compreensão do ciclo completo de um pipeline de dados.
 
@@ -264,7 +264,7 @@ Durante o processo, pude aprimorar minha habilidade em manipular dados utilizand
 
 ---
 
-### 🧑‍✈️ Tabela: `dim_piloto`
+### 🧑‍🏍️ Tabela: `dim_piloto`
 
 | Coluna           | Tipo   | Descrição               | Domínio/Valores Esperados |
 |------------------|--------|-------------------------|----------------------------|
