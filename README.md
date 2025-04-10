@@ -133,6 +133,10 @@
 
 ![image](https://github.com/user-attachments/assets/7206c399-d734-4154-b9d5-dd5aa8d92ae6)
 
+Comentário: É impossível não destacar a grandiosidade de Marc Márquez com impressionantes 4101 pontos, ele está muito à frente dos demais. Isso mostra não só sua consistência ao longo das temporadas, mas também o domínio absoluto que ele teve por anos no MotoGP. 
+
+Já Maverick Viñales e Johann Zarco, mesmo com menos títulos que outros nomes, apresentam uma pontuação sólida, reflexo de regularidade e presença constante nas corridas. A constância sem necessariamente vencer campeonatos também constrói uma carreira respeitável.
+
 ---
 
 ### 📌 Consulta 2  
@@ -147,6 +151,8 @@
 
   ![image](https://github.com/user-attachments/assets/6f8511fc-61ba-4a29-8d15-6488aa9f81de)
 
+Comentário: Essa consulta revela um panorama sobre o verdadeiro desempenho dos modelos de moto no MotoGP ao longo das temporadas. O que mais chama atenção, pessoalmente, é o domínio impressionante da Ducati, com o modelo Desmosedici GP25 disparado na frente com uma média de eficiência de 37 – quase o dobro da segunda colocada, a GP23. Isso mostra como a Ducati vem investindo pesado em inovação e performance nos últimos anos.
+
 
 ---
 
@@ -158,7 +164,9 @@
 
   ![image](https://github.com/user-attachments/assets/2283fd10-8b56-4f14-bd04-73da88a1933b)
 
+Marc Márquez, com 18 temporadas um número que reforça o status de lenda viva da modalidade. Ele continua sendo um nome de peso no grid, o que mostra não só talento, mas uma força mental absurda.
 
+Logo atrás, nomes como Johann Zarco, Jack Miller e Miguel Oliveira também impressionam com 15 ou mais temporadas, mostrando uma geração sólida que se manteve competitiva por anos.
 ---
 
 ### 📌 Consulta 4  
@@ -169,6 +177,8 @@
 - Usar em relatórios e dashboards de análise de desempenho da competição
 
   ![image](https://github.com/user-attachments/assets/1925bb34-2b9c-41f4-80aa-ad3c9d80f355)
+
+O domínio da Red Bull KTM Ajo no topo com 3626 pontos é impressionante. Ela supera com folga nomes históricos como Repsol Honda e Ducati Lenovo. Isso mostra que, embora muitas vezes menos "midiática", a Red Bull KTM Ajo tem sido extremamente eficiente, provavelmente por sua forte presença em categorias como Moto2 e Moto3, formando talentos desde cedo.
 
 
 ---
@@ -181,6 +191,8 @@
 - Apoiar decisões em análises de desempenho técnico dos veículos
 
   ![image](https://github.com/user-attachments/assets/5e9183e6-66e3-4657-9f64-290d9171da22)
+
+Ver a Kalex liderando com 66 poles mostra como ela reina absoluta na Moto2. Ela é consistentemente dominante em uma volta rápida, o que é o coração da classificação. Logo depois, Honda RC213V (64) e Ducati (60) sustentam sua fama com números sólidos, mas o mais curioso é ver a Ducati Desmosedici GP25.
 
 
 ---
@@ -197,6 +209,8 @@
 
   ![image](https://github.com/user-attachments/assets/098cc4e3-d123-4cfe-834b-5d5e6a03b26d)
 
+Destaca os principais nomes com mais títulos acumulados no dataset, com Johann Zarco e Marc Márquez no topo, ambos com 18 títulos. A listagem ainda inclui pilotos relevantes da geração atual como Bagnaia, Quartararo, Binder e o jovem Pedro Acosta, que já aparece com 5 títulos mesmo em início de carreira. 
+
 
 ---
 
@@ -209,6 +223,21 @@
 
   ![image](https://github.com/user-attachments/assets/af2d07b2-f937-49d9-9610-206e5f92fe13)
 
+Ela mostra, com precisão, quem realmente entregou resultado ao longo de uma temporada inteira, e não só em vitórias pontuais.
 
+Jorge Martin em 2024 é, sem dúvidas, o maior destaque. 508 pontos e uma eficiência absurda de 25,40 por corrida mostram uma temporada praticamente impecável. Mais impressionante ainda é ver que ele superou Francesco Bagnaia, que também teve um desempenho brilhante com 498 pontos. Esses dois transformaram 2024 em um dos duelos mais fortes da era recente.
+
+Marc Márquez em 2019 ainda impressiona. Mesmo em uma era anterior à atual dominância da Ducati, ele marcou 420 pontos com apenas 19 corridas, mantendo uma média de 22,11 — isso mostra o quanto ele foi dominante naquela fase da Honda. 
+
+Link do meu Databricks: https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1660807777469565/254179631858457/7016163473829090/latest.html
+
+
+Autoavaliação:
+
+O desenvolvimento deste projeto representou uma oportunidade concreta de aplicar os conhecimentos adquiridos em engenharia de dados em um cenário com propósito analítico claro. Desde o carregamento e tratamento do dataset até a modelagem dimensional e a execução de consultas, cada etapa exigiu atenção aos detalhes e compreensão do ciclo completo de um pipeline de dados.
+
+Optei por utilizar o Databricks e modelar os dados no formato de esquema estrela, considerando o volume e o tipo de análise desejada. A estruturação em tabelas dimensionais e fato facilitou a criação de consultas otimizadas e a aplicação de métricas analíticas como eficiência por corrida, taxa de vitórias e taxa de pódios. Essas métricas foram fundamentais para responder perguntas de negócio com profundidade e objetividade.
+
+Durante o processo, pude aprimorar minha habilidade em manipular dados utilizando Python e SQL, além de reforçar boas práticas como padronização de tipos, eliminação de duplicatas e organização semântica das colunas. Também percebi a importância de documentar com mais precisão cada etapa técnica, para tornar o projeto mais claro e reprodutível por terceiros.
 ---
 
